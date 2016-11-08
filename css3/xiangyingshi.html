@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .box{
+            width:500px;
+            height:200px;
+            border:1px solid #ccc;
+            margin:0 auto;
+            overflow: hidden;
+        }
+       .box .left,.box .right{
+            height:200px;
+        }
+        .box div{
+            float:left;
+            height:100px;
+            border:1px solid #ccc;
+        }
+
+
+
+        .col-s-1{
+            width:8.33333%;
+        }
+        .col-s-2{
+            width:16.66666%;
+        }
+        .col-s-3{
+            width:25%;
+        }
+        .col-s-4{
+            width:33.33333%;
+        }
+        .col-s-5{
+            width:41.666667%;
+        }
+        .col-s-6{
+            width:50%;
+        }
+        .col-s-7{
+            width:58.33333%;
+        }
+        .col-s-8{
+            width:66.666667%;
+        }
+        .col-s-9{
+            width:75%;
+        }
+        .col-s-10{
+            width:83.33333%;
+        }
+        .col-s-11{
+            width:91.66666%;
+        }
+        .col-s-12{
+            width:100%;
+        }
+        @media screen and (min-width:1000px){
+
+          .box{
+              width:1000px;
+          }
+
+
+            .col-d-1{
+                width:8.33333%;
+            }
+            .col-d-2{
+                width:16.66666%;
+            }
+            .col-d-3{
+                width:25%;
+            }
+            .col-d-4{
+                width:33.33333%;
+            }
+            .col-d-5{
+                width:41.666667%;
+            }
+            .col-d-6{
+                width:50%;
+            }
+            .col-d-7{
+                width:58.33333%;
+            }
+            .col-d-8{
+                width:66.666667%;
+            }
+            .col-d-9{
+                width:75%;
+            }
+            .col-d-10{
+                width:83.33333%;
+            }
+            .col-d-11{
+                width:91.66666%;
+            }
+            .col-d-12{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="left col-s-12 col-d-9">
+        <div class="col-s-12 col-d-8"></div>
+        <div class="col-s-6 col-d-4"></div>
+        <div class="col-s-6 col-d-4"></div>
+        <div class="col-d-9"></div>
+    </div>
+    <div class="right col-d-3">
+
+    </div>
+</div>
+</body>
+</html>
