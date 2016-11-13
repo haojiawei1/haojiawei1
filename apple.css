@@ -55,55 +55,55 @@ a{
     }
 }
 .small1{
-    background: url("images/nike_watch_large.jpg") no-repeat;
+    background: url("images/nike_watch_large.jpg") no-repeat center center;
     background-size:360px 200px;
 }
 .small2{
-    background: url("images/airpods_large.jpg") no-repeat;
+    background: url("images/airpods_large.jpg") no-repeat center center;
     background-size:360px 200px;
 }
 .small3{
-    background: url("images/iphone_upgrade_large.jpg");
+    background: url("images/iphone_upgrade_large.jpg") center;
     background-size:360px 200px;
 }
 .small4{
-    background: url("images/accessibility_large.jpg");
+    background: url("images/accessibility_large.jpg")center;
     background-size:360px 200px;
 }
 
 @media screen and (max-width:1068px){
     .small1{
-        background: url("images/nike_watch_medium.jpg") ;
+        background: url("images/nike_watch_medium.jpg")center ;
         background-size: 640px 200px;
     }
     .small2{
-        background: url("images/airpods_medium.jpg") ;
+        background: url("images/airpods_medium.jpg")center ;
         background-size: 640px 200px;
     }
     .small3{
-        background: url("images/iphone_upgrade_medium.jpg");
+        background: url("images/iphone_upgrade_medium.jpg")center;
         background-size: 640px 200px;
     }
     .small4{
-        background: url("images/accessibility_medium.jpg");
+        background: url("images/accessibility_medium.jpg")center;
         background-size: 640px 200px;
     }
 }
 @media screen and (max-width:735px){
     .small1{
-        background: url("images/nike_watch_small.jpg");
+        background: url("images/nike_watch_small.jpg")center;
         background-size: 736px 200px;
     }
     .small2{
-        background: url("images/airpods_small.jpg") ;
+        background: url("images/airpods_small.jpg") center;
         background-size: 736px 200px;
     }
     .small3{
-        background: url("images/iphone_upgrade_small.jpg");
+        background: url("images/iphone_upgrade_small.jpg")center;
         background-size: 736px 200px;
     }
     .small4{
-        background: url("images/accessibility_small.jpg");
+        background: url("images/accessibility_small.jpg")center;
         background-size: 736px 200px;
     }
 }
